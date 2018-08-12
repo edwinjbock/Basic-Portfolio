@@ -1,12 +1,12 @@
-/* 
+
 * {
-    box-sizing: border-box;
+    overflow: hidden;
 }
-*/
+
    
 body {
     width:100%;
-    margin: 0 auto;
+    border: none;
 }
 
 p.body {
@@ -20,82 +20,56 @@ p.body {
 }
 
 /*
-.headerFillLeft {
-    width: 15%;
-    float: left;
-    position: relative;
-    padding: 20px 10px 10px 20px;
-    border: none;
-}
-*/
-
 .headerSpan {
     height: 50px;
     width: 100%;
     margin: 0 auto;
-    border: 0;
+    border: none;
 }
-
+*/
 .headerName {
+    height: 50px;
     width: 15%;
     float: left;
     padding: 10px 10px 10px 10px;
     border: none;
     background: #4aaaa5;
-    margin: 0px 25% 0px 15%;
+    margin: 0px 35% 0px 15%;
     text-align: center;
 }
 
-/*
-.headerFillMiddle {
-    width: 25%;
-    float: left;
-    padding: 20px 10px 10px 20px;
-    border: none;
-}
-*/
-
 .headerAbout {
+    height: 50px;
     width: 5%;
     float: left;
-    padding: 10px 10px 10px 10px;
+    padding: 0px;
     border: none;
     background: red;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 }
 
 .headerPortfolio {
+    height: 50px;
     width: 5%;
     float: left;
-    padding: 10px 10px 10px 10px;
+    padding: 0px;
     border: none;
     background: gray;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
 }
 
 .headerContact {
+    height: 50px;
     width: 5%;
     float: left;
-    padding: 10px 10px 10px 10px;
+    padding: 0px;
     border: none;
     background: red;
     margin: 0 15% 0 0;
     text-align: center;
 }
-
-
-
-/*
-.headerFillRight {
-    width: 15%;
-    float: left;
-    position: relative;
-    padding: 20px 10px 10px 20px;
-    border: none;
-}
-*/ 
 
 .content {
     width: 70%;
@@ -116,10 +90,10 @@ p.body {
 
 .footer {
     width: 100%;
-    text: center;
-    float: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
     border: none;
     clear: both;
-    text-align: center;
     background-color: gray;
+    margin: 0;
 }
