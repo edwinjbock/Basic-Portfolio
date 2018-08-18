@@ -1,3 +1,7 @@
+html {
+height: 100%;
+}
+
 body {
 height: 100%;
     width: 100%;
@@ -14,7 +18,7 @@ height: 100%;
 }
 
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, serif;
 }
 
 /*
@@ -24,26 +28,26 @@ h1 {
     clear: both;
 }
 */
-
+/*
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+*/
 
-/*
 .clearfix {
     overflow: auto;
 }
-*/
+
 
 #pageTitle {
     font: #4aaaa5;
 }
 
 .container {
-    width: 80%;
-    border: solid blue;
+    width: 960px;
+/*    border: solid blue; */
     padding: 0px 0px 0px 0px;
     margin: auto;
     overflow: hidden;
@@ -58,8 +62,9 @@ h1 {
 
 /* HEADER */
 header {
-    height: 100px;
+    height: 80px;
     width: 100%;
+    font: #777777;
     background-color: #fff;
     border-bottom: 10px #ccc;
     overflow: hidden;
@@ -68,11 +73,11 @@ header {
 }
 
 header a {
-
+    text-decoration: none #777;
 }
 
 header a:hover {
-
+    text-decoration: underline #777;
 }
 
 header li {
@@ -84,10 +89,11 @@ header li {
 
 #highlightName {
     float: left;
-    font: white;
+    font: #fff;
     font-weight: bold;
-    margin: 20px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
     background-color: #4aaaa5;
+vertical-align: middle;
 }
 
 
@@ -95,7 +101,7 @@ header nav {
     float: right;
     /* margin: 0; */
     padding: 0 0 0 0;
-margin: 20px 20px 20px 20px;
+margin: 30px 20px 20px 20px;
 }
 
 nav ul {
@@ -104,11 +110,10 @@ nav ul {
 }
 
 .content {
-    width: 97%;
+    width: 920px;
     float: left;
-    border: solid red;
+/*    border: solid red; */
 overflow: hidden;
-overflow: 
     padding: 0 20px 0 20px;
 margin: auto;
 
@@ -129,18 +134,18 @@ margin: auto;
 }
 
 footer {
-height: 30px;
+    height: 40px;
     width: 100%;
+    font: #ffffff;
     text-align: center;
-    padding: 10px 0 10px 0;
-    border: none;
+    padding: 0;
+    border-top: solid 2px #4aaaa5;
     background-color: #666;
-    font: white;
-position: fixed;
-left: 0;
-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     clear: both;
-    font: white;
+
 }
 
 /*
@@ -187,3 +192,8 @@ hr {
     margin: auto;
 }
 */
+
+html, body {
+    height: 100%;
+    
+    }
