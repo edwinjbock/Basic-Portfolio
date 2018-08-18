@@ -7,33 +7,51 @@
 
    
 body {
-    font: Arial, sans-serif;
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border: none;
-    padding: 0;
+    padding: none;
     margin: 0;
 }
 
-p.body {
-    font: #777777;
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/*
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .clearfix {
     overflow: auto;
 }
 
+#pageTitle {
+    font: #4aaaa5;
+}
+
 .container {
-    width: 100%;
+    /*                                border-style: solid;
+                                    border-width: 5px;
+                                    border-color: black;
+                                    */
+    width: 80%;
+    border: solid blue;
+    padding: 30px 20px 30px 20px;
     margin: auto;
     overflow: hidden;
+    clear: both;
     /* REMOVE! Formatting in order to see what I'm doing */
-        border: 1px;
-        border-color: black;
         background-color: darkgray;
 }
 
@@ -48,9 +66,9 @@ p.body {
 
 /* HEADER */
 header {
-    /* REMOVE! Formatting in order to see what I'm doing */
-        border: 1px;
-        border-color: black;
+    width: 100%;
+    /* REMOVE! Formatting, in order to see what I'm doing */
+        border: 0;
 }
 
 header a {
@@ -64,34 +82,58 @@ header a:hover {
 header li {
     float: left;
     display: inline;
+    padding: 0 0 0 20px;
 }
 
-/*
-header.highlightName {
+
+header .highlightName {
     float: left;
+    font: white;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
 }
-*/
 
-header nav {
+
+nav {
     float: right;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+nav.ul {
+    display: inline;
 }
 
 .content {
-    margin: 20px 15% 20px 15%;
-    border: none;
-    clear: both;
+    width: 100%;
     float: left;
+    border: solid red;
+overflow: hidden;
+    padding: 0 20px 0 20px;
 }
 
 .contentImage {
     border: none;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 0;
 }
 
+.contentImage {
+    float:left;
+    border: none;
+}
 
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border: none;
+    background-color: #666;
+    font: white;
+    margin: 0;
+    clear: both;
+}
 
-
-
+/*
 .headerName {
     height: 50px;
     width: 15%;
@@ -102,7 +144,9 @@ header nav {
     margin: 0px 35% 0px 15%;
     text-align: center;
 }
+*/
 
+/*
 ul.headerLinks {
     display: inline;
     height: 50px;
@@ -114,29 +158,22 @@ ul.headerLinks {
     margin: 0 auto;
     text-align: center;
 }
-
-nav.ul {
-    display: inline;
-}
+*/
 
 
 
-.contentImage {
-    float:left;
-    border: none;
-}
-
+/*
 .contentFloatRight {
     float: left;
     border: none;
 }
+*/
 
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 10px 0 10px 0;
-    border: none;
-    clear: both;
-    background-color: gray;
-    margin: 0;
+/*
+hr {
+    border:0;
+    height: 1px;
+    background: black;
+    margin: auto;
 }
+*/
