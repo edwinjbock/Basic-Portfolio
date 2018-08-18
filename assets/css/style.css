@@ -7,8 +7,10 @@
 
    
 body {
-    width:100%;
+    font: Arial, sans-serif;
     border: none;
+    padding: 0;
+    margin: 0;
 }
 
 p.body {
@@ -21,10 +23,18 @@ p.body {
     clear: both;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
+    /* REMOVE! Formatting in order to see what I'm doing */
+        border: 1px;
+        border-color: black;
+        background-color: darkgray;
 }
 
 /*
@@ -38,11 +48,16 @@ p.body {
 
 /* HEADER */
 header {
-
+    /* REMOVE! Formatting in order to see what I'm doing */
+        border: 1px;
+        border-color: black;
 }
 
 header a {
 
+}
+
+header a:hover {
 
 }
 
@@ -51,14 +66,29 @@ header li {
     display: inline;
 }
 
+/*
 header.highlightName {
     float: left;
 }
+*/
 
 header nav {
     float: right;
-
 }
+
+.content {
+    margin: 20px 15% 20px 15%;
+    border: none;
+    clear: both;
+    float: left;
+}
+
+.contentImage {
+    border: none;
+    padding: 0 20px 0 20px;
+}
+
+
 
 
 
@@ -89,12 +119,7 @@ nav.ul {
     display: inline;
 }
 
-.content {
-    width: 70%;
-    margin: 0 15% 0 15%;
-    border: none;
-    clear: both;
-}
+
 
 .contentImage {
     float:left;
