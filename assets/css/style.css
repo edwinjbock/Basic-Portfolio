@@ -61,35 +61,70 @@ h1 {
 }
 
 /* HEADER */
+
+
+<!-- Let's tray using a table and a cell's bg color for my name -->
+
+
+.nameOnHeader td {
+    /*
+    color:#fff;
+    width: 400px;
+    border: none;
+    margin: 0;
+    padding: 0 0 0 20px;
+    text-align: center;
+    */
+}
+
+table {
+    padding: 0;
+    height: 80px;
+border:none;
+}
+
+tr {
+    padding: 0;
+border: none;
+}
+td {
+    padding: 0 0 0 20px;
+    margin: 0;
+border:none;
+vertical-align: middle;
+}
+
 header {
     height: 80px;
     width: 100%;
     font: #777777;
     background-color: #fff;
-    border-bottom: 10px #ccc;
+border: none;
+    border-bottom: 2px;
+    border-bottom-color: black;
     overflow: hidden;
     clear: both;
     margin: auto;
 }
 
 header a:link {
-    text-decoration: none #777;
+    color: #777;
+    text-decoration: none;
 }
 
 header a:visited {
     color: #777;
-}
-/* unvisited link */
-header a:link {
-    color: #777;
+    text-decoration: none;
 }
 
 header a:hover {
     color: #777;
-    text-decoration: underline #777
+    text-decoration: underline;
 }
+
 header a:active {
     color: #777;
+    text-decoration: none;
 }
 
 header li {
@@ -98,22 +133,20 @@ header li {
     padding: 0 0 0 20px;
 }
 
-
-#highlightName {
+#highlightName h1 {
     float: left;
     color: #fff;
     font-weight: bold;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 0 0 0;
     background-color: #4aaaa5;
 vertical-align: middle;
 }
-
 
 header nav {
     float: right;
     /* margin: 0; */
     padding: 0 0 0 0;
-margin: 30px 20px 20px 20px;
+margin: 30px 0 20px 20px;
 }
 
 nav ul {
@@ -147,10 +180,11 @@ margin: auto;
 
 footer {
     height: 40px;
-    width: 100%;
-    font: #ffffff;
+    width: 90%;
+    color: #ffffff;
     text-align: center;
     padding: 0;
+    margin: 0;
     border-top: solid 2px #4aaaa5;
     background-color: #666;
     position: fixed;
@@ -159,53 +193,3 @@ footer {
     clear: both;
 
 }
-
-/*
-.headerName {
-    height: 50px;
-    width: 15%;
-    float: left;
-    padding: 10px 10px 10px 10px;
-    border: none;
-    background: #4aaaa5;
-    margin: 0px 35% 0px 15%;
-    text-align: center;
-}
-*/
-
-/*
-ul.headerLinks {
-    display: inline;
-    height: 50px;
-    width: 5%;
-    float: left;
-    padding: 0px;
-    border: none;
-    background: red;
-    margin: 0 auto;
-    text-align: center;
-}
-*/
-
-
-
-/*
-.contentFloatRight {
-    float: left;
-    border: none;
-}
-*/
-
-/*
-hr {
-    border:0;
-    height: 1px;
-    background: black;
-    margin: auto;
-}
-*/
-
-html, body {
-    height: 100%;
-    
-    }
