@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
 height: 100%;
 }
@@ -11,7 +15,7 @@ height: 100%;
     padding: 0;
     margin: 0;
     background-image: url("assets/images/background2.jpg");
-/* background-color: red; */
+/*background-color: red; */
     background-size: cover;
     background-repeat: repeat;
     background-position: left top;
@@ -46,6 +50,7 @@ h1 {
 }
 
 .container {
+    box-sizing: border-box;
     width: 960px;
 /*    border: solid blue; */
     padding: 0px 0px 0px 0px;
@@ -56,7 +61,7 @@ h1 {
         background-color: #fff;
 }
 
-.container p {
+p.container {
     color: #777;
 }
 
@@ -66,15 +71,18 @@ h1 {
 <!-- Let's tray using a table and a cell's bg color for my name -->
 
 
-.nameOnHeader td {
-    /*
-    color:#fff;
-    width: 400px;
+td.nameOnHeader {
+    background: #4aaaa5;
+    color:white;
+    width: 190px;
     border: none;
     margin: 0;
     padding: 0 0 0 20px;
     text-align: center;
-    */
+}
+
+h1.nameOnHeader {
+    color: white;
 }
 
 table {
@@ -95,16 +103,16 @@ vertical-align: middle;
 }
 
 header {
+    box-sizing: border-box;
     height: 80px;
     width: 100%;
     font: #777777;
     background-color: #fff;
-border: none;
     border-bottom: 2px;
-    border-bottom-color: black;
-    overflow: hidden;
+    border-bottom-color: black; /* CHANGE */
+    /* overflow: hidden; */
     clear: both;
-    margin: auto;
+    margin: none;
 }
 
 header a:link {
@@ -149,13 +157,20 @@ header nav {
 margin: 30px 0 20px 20px;
 }
 
+ul {
+    display: inline;
+    margin: auto;
+    float: left;
+    clear: both;
+}
 nav ul {
     display: inline;
     margin: auto;
 }
 
 .content {
-    width: 920px;
+    box-sizing: border-box;
+    width: 960px;
     float: left;
 /*    border: solid red; */
 overflow: hidden;
@@ -164,7 +179,7 @@ margin: auto;
 
 }
 
-.content p {
+p.content {
     font: #777;
 }
 
@@ -179,8 +194,9 @@ margin: auto;
 }
 
 footer {
+    box-sizing: border-box;
     height: 40px;
-    width: 90%;
+    width: 100%;
     color: #ffffff;
     text-align: center;
     padding: 0;
