@@ -1,5 +1,5 @@
 * {
-  background:black;
+  /* background:black; */
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   background-image: url("../images/background.png");
   width: 100%;
   margin: auto;
-  background-color: blue;
+  background-color: blue; /* for validation purposes */
   height: 100vh; /* !!!!!!!!!! */
 }
 
@@ -22,7 +22,7 @@ h3 {
   color: #4aaaa5;
 }
 
-:not(h1, h2, h3) {
+p {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
 }
@@ -68,14 +68,24 @@ nav {
   width: 98%;
   background-color: #fff;
   margin: 1% auto 1% auto;
-  height: 90px;
+  padding: 0 20px 0 20px;
 }
 
-.page-content {
-  width: 98%;
+.content {
+  box-sizing: border-box;
+  
+  /* width: 960px; */
+  /* float: left; */
+  overflow: hidden;
+  padding: 0 20px 0 20px;
+  margin: 1% auto 1% auto;
   background-color: #fff;
-  margin: 0% auto 1% auto;
-  height: 90px;
+}
+
+img {
+  float:left;
+  padding-right: 10px;
+  padding-top: 1%;
 }
 
 .showcase1 {
