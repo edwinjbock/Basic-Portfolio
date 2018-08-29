@@ -29,16 +29,16 @@ p {
 
 nav {
   width: 100%;
-  background-color: black;
+  background-color: blue; /* for validation */
   color: #777777;
   margin-bottom: 20px;
   height: 70px;
-  border-bottom: #ccc 2px;
+  border-bottom: yellow 10px;
 }
 
 .nav-container {
   /* position: relative; */
-  background: #fff;
+  background: red;
   height: 50px;
   margin-top: 20px;
   padding: 0.5%;
@@ -60,15 +60,19 @@ nav {
   width:960px;
   background-color: #fff;
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
 .page-title {
-  width: 98%;
   background-color: #fff;
-  margin: 1% auto 1% auto;
+  margin: 1% 0% 1% 0%;
   padding: 0 20px 0 20px;
+}
+
+.page-title hr {
+  /* width: 100%; */
+  /* padding-right: 40px; */
 }
 
 .content {
@@ -84,7 +88,8 @@ nav {
 
 img {
   float:left;
-  padding-right: 10px;
+  padding-right: 15px;
+  padding-bottom: 5px;
   padding-top: 1%;
 }
 
@@ -106,24 +111,18 @@ img {
   border: 1px black;
 }
 
-/* .showcase3 {
-  width: 32%;
-    height: 100px;
-    float: right;
-    background-color: white;
-  margin: 0% 1% 1% 0%;
-} */
-
 footer {
   width: 100%;
-  display: flex; 
-  align-items: center; /* CENTERS VERTICALLY */
+  display: block;
   text-align: center;
   background-color: #666666;
-  margin: 20px auto 0 auto;
-  height: 50px;
-  padding: 10px auto 10px auto;
-  text-align: center;
+  margin: 10px auto 0 auto;
+  height: 60px;
+  padding: 15px 0 0 0;
   color: white;
   border-top: 10px solid #4aaaa5;
+}
+
+footer p {
+  color:white
 }
