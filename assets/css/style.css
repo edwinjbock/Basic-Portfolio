@@ -31,7 +31,7 @@ nav {
   background-color: #ffffff;
   color: #777777;
   margin-bottom: 10px;
-  height: 70px;
+  height: 80px;
   border-bottom: 5px solid #777;
 }
 
@@ -39,8 +39,8 @@ nav {
   /* position: relative; */
   background: red;
   height: 65px;
-  margin-top: 15px;
-  padding: 0%;
+  margin: 15px auto 0 auto;
+  padding: 0;
   width: 960;
 }
 
@@ -57,8 +57,8 @@ nav {
 }
 
 .nav-links {
-  /* float: right;
-  display: inline; */
+  float: left;
+  display: inline;
   margin: auto; 
   color: #777;
 }
@@ -87,7 +87,7 @@ nav {
 
 .page-title {
   background-color: #fff;
-  margin: 1% 0% 1% 0%;
+  margin: 10px 0 10px 0;
   padding: 0 20px 0 20px;
 }
 
@@ -95,7 +95,7 @@ nav {
   box-sizing: border-box;
   overflow: hidden;
   padding: 0 20px 0 20px;
-  margin: 1% auto 1% auto;
+  margin: 10px auto 10px auto;
   background-color: #fff;
 }
 
@@ -103,7 +103,7 @@ img {
   float:left;
   padding-right: 15px;
   padding-bottom: 5px;
-  padding-top: 1%;
+  padding-top: 10px;
 }
 
 .showcase1 {
@@ -112,7 +112,7 @@ img {
   float: left;
   background-color: #fff;
   border: 1px black;
-  margin: 0% 1% 1% 1%;
+  margin: 0 10px 10px 10px;
 }
 
 .showcase2 {
@@ -120,7 +120,7 @@ img {
   height: 100px;
   float: left;
   background-color: #fff;
-  margin: 0% 1% 1% 1%;
+  margin: 0 10px 10px 10px;
   border: 1px black;
 }
 
@@ -133,7 +133,7 @@ footer {
   height: 60px;
   padding: 15px 0 0 0;
   color: white;
-  border-top: 10px solid #4aaaa5;
+  border-top: 5px solid #4aaaa5;
 }
 
 footer p {
