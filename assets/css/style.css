@@ -1,0 +1,110 @@
+* {
+  background:black;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  height: 100vh; /* !!!!!!!!!! */
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+}
+
+:not(h1),
+:not(h2),
+:not(h3) {
+  font-family: 'Ariasl', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+#nav-container {
+  position: relative;
+  background: #fff;
+  height: 50px;
+}
+.container {
+  width:960px;
+  background-color: #4aaaa5;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.page-title {
+  width: 98%;
+  background-color: orange;
+  margin: 1% auto 0 auto;
+  height: 90px;
+}
+
+.page-content {
+  width: 98%;
+  background-color: orange;
+  margin: 1% auto 0 auto;
+  height: 90px;
+}
+
+.showcase1 {
+  width: 40%;
+  height: 100px;
+  float: left;
+  background-color: red;
+  margin: 1% 1% 0% 1%;
+}
+
+.showcase2 {
+  width: 40%;
+    height: 100px;
+  float: left;
+    background-color: blue;
+  margin: 1% 1% 0% 0%;
+}
+
+.showcase3 {
+  width: 32%;
+    height: 100px;
+    float: right;
+    background-color: white;
+  margin: 1% 1% 0% 0%;
+}
+
+.dual1 {
+  width: 48.5%;
+  height: 100px;
+  float: left;
+  background-color: red;
+  margin: 1% 1% 1% 1%;
+}
+
+.dual2 {
+  width: 48.5%;
+  height: 100px;
+  float: left;
+  background-color: blue;
+  margin: 1% 1% 1% 0%;
+}
+footer {
+  width: 100%;
+  /* position: relative;
+  background-position-x: 0;
+  background-position-y: bottom; */
+  background-color: #666666;
+  margin: 20px auto 0 auto;
+  height: 50px;
+  padding: 10px auto 10px auto;
+  /* margin-top: 185px; */
+  text-align: center
+}
