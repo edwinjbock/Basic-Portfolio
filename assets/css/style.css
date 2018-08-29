@@ -38,7 +38,7 @@ nav {
 .nav-container {
   /* position: relative; */
   background: red;
-  height: 67px;
+  height: 65px;
   margin-top: 15px;
   padding: 0%;
   width: 960;
@@ -54,6 +54,27 @@ nav {
   position: relative;
   background-color: #4aaaa5;
   text-align: center:
+}
+
+.nav-links {
+  /* float: right;
+  display: inline; */
+  margin: auto; 
+  color: #777;
+}
+
+.nav-links ul {
+  /* display: inline; */
+  list-style: none; /* Remove Bullets */
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  overflow: hidden;
+}
+
+.nav-links li {
+  /* display: inline; */
+  float: right;
 }
 
 .container {
