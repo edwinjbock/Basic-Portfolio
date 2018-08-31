@@ -123,7 +123,7 @@ img {
   padding-top: 10px;
 }
 
-.showcase1 {
+/* .showcase1 {
   width: 40%;
   height: 100px;
   float: left;
@@ -139,6 +139,25 @@ img {
   background-color: #fff;
   margin: 0 10px 10px 10px;
   border: 1px black;
+} */
+
+input {
+  width: 100%;
+  /* text-align:  */
+  padding: 5px;
+}
+
+.input-message {
+  height: 200px;
+}
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  width: 75px;
 }
 
 footer {
