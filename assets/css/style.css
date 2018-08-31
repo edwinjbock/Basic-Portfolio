@@ -50,9 +50,9 @@ nav {
   /* position: relative; */
   display: flex;
   background: white;
-  height: 59px;
+  height: 64px;
   margin: 0px auto 0 auto;
-  padding: 5px 0 0 0;
+  padding: 0px 0 0 0;
   width: 960;
 }
 
