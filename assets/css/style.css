@@ -124,21 +124,22 @@ img {
 }
 
 .showcase {
+  position: relative;
   width: 266;
-  height: 200px;
+  /* height: 200px; */
   float: left;
   background-color: #fff;
   border: 0px;
   padding: 0;
   margin: 10px 20px 10px 0px;
   /* display: inline; */
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .showcase-image {
   width: 266px;
   height: 200px;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .showcase-highlight {
@@ -150,22 +151,23 @@ img {
     color: red;
     text-align: center;
     top: 140px;
-    /* bottom: 20px; */
+    bottom: 20px;
     z-index: 20;
     /* line-height: 40px; */
 }
 
 .showcase-text {
-    position: relative;
+    position: absolute;
     width: 266px;
     height: 40px;
     margin: 0px;
+    padding-top: 10px;
     background-color: #4aaaa5;
-    color: red;
+    color: white;
     text-align: center;
     top: 50%;
     /* bottom: 20px; */
-    z-index: 20;
+    z-index: 30;
     /* line-height: 40px; */
 }
 
