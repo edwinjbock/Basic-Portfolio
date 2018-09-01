@@ -1,5 +1,4 @@
 * {
-  /* background:black; */
 }
 
 body {
@@ -47,7 +46,6 @@ nav {
 }
 
 .nav-container {
-  /* position: relative; */
   display: flex;
   background: white;
   height: 64px;
@@ -70,7 +68,6 @@ nav {
 
 .nav-links {
   float: right;
-  /* display: inline; */
   align-items: center;
   margin: auto; 
   color: #777;
@@ -80,7 +77,6 @@ nav {
 }
 
 .nav-links ul {
-  /* display: inline; */
   list-style: none; /* Remove Bullets */
   margin: 0;
   padding: 0;
@@ -89,7 +85,6 @@ nav {
 }
 
 .nav-links li {
-  /* display: inline; */
   float: left;
   padding: 10px 10px 0 10px;
 }
@@ -98,7 +93,6 @@ nav {
   width:960px;
   background-color: #fff;
   margin: auto;
-  /* overflow: hidden; */
 }
 
 
@@ -126,20 +120,16 @@ img {
 .showcase {
   position: relative;
   width: 266;
-  /* height: 200px; */
   float: left;
   background-color: #fff;
   border: 0px;
   padding: 0;
   margin: 10px 20px 10px 0px;
-  /* display: inline; */
-  /* z-index: 0; */
 }
 
 .showcase-image {
   width: 266px;
   height: 200px;
-  /* z-index: 10; */
 }
 
 .showcase-highlight {
@@ -152,8 +142,7 @@ img {
     text-align: center;
     top: 140px;
     bottom: 20px;
-    z-index: 20;
-    /* line-height: 40px; */
+    z-index: 20; /* On top of picture*/
 }
 
 .showcase-text {
@@ -166,32 +155,17 @@ img {
     color: white;
     text-align: center;
     top: 50%;
-    /* bottom: 20px; */
-    z-index: 30;
-    /* line-height: 40px; */
+    z-index: 30; /* on top of highlight */
 }
 
 .showcase-text h2 {
   color: white;
       text-align: center;
-      /* top: 140px; */
       bottom: 20px;
 }
-/* 
-.showcase2 {
-  width: 133px;
-  height: 100px;
-  float: left;
-  background-color: #fff;
-  margin: 0 10px 10px 10px;
-  border: 0px;
-  padding: 0;
-} 
-*/
 
 input {
   width: 100%;
-  /* text-align:  */
   padding: 5px;
 }
 
